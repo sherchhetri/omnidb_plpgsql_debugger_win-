@@ -1,0 +1,4 @@
+﻿  omnidb_plpgsql_debugger.c
+F:\installprogram\PostgreSQL\17\include\server\port.h(446,10): error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+  (compiling source file 'omnidb_plpgsql_debugger.c')
+  

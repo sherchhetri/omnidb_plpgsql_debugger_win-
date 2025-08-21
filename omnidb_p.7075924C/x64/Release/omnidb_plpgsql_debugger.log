@@ -1,0 +1,27 @@
+﻿  omnidb_plpgsql_debugger_win.c
+F:\installprogram\PostgreSQL\17\include\server\nodes\pg_list.h(336,11): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'omnidb_plpgsql_debugger_win.c')
+  
+F:\installprogram\PostgreSQL\17\include\server\storage\bufpage.h(302,50): warning C4267: '=': conversion from 'size_t' to 'uint16', possible loss of data
+  (compiling source file 'omnidb_plpgsql_debugger_win.c')
+  
+F:\installprogram\PostgreSQL\17\include\server\storage\bufpage.h(316,32): warning C4267: 'return': conversion from 'size_t' to 'uint16', possible loss of data
+  (compiling source file 'omnidb_plpgsql_debugger_win.c')
+  
+F:\installprogram\PostgreSQL\17\include\server\port\pg_iovec.h(70,13): warning C4244: '+=': conversion from 'ssize_t' to 'off_t', possible loss of data
+  (compiling source file 'omnidb_plpgsql_debugger_win.c')
+  
+F:\installprogram\PostgreSQL\17\include\server\port\pg_iovec.h(109,13): warning C4244: '+=': conversion from 'ssize_t' to 'off_t', possible loss of data
+  (compiling source file 'omnidb_plpgsql_debugger_win.c')
+  
+F:\c\demo_c\repos\omnidb_plpgsql_debugger\omnidb_plpgsql_debugger_win.c(35,9): warning C4005: 'PGDLLEXPORT': macro redefinition
+      F:\installprogram\PostgreSQL\17\include\server\pg_config_os.h(59,9):
+      see previous definition of 'PGDLLEXPORT'
+  
+     Creating library F:\c\demo_c\repos\omnidb_plpgsql_debugger\x64\Release\omnidb_plpgsql_debugger.lib and object F:\c\demo_c\repos\omnidb_plpgsql_debugger\x64\Release\omnidb_plpgsql_debugger.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  omnidb_plpgsql_debugger.vcxproj -> F:\c\demo_c\repos\omnidb_plpgsql_debugger\x64\Release\omnidb_plpgsql_debugger.dll
+          1 file(s) copied.
