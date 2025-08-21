@@ -18,6 +18,28 @@ SELECT to_regclass('omnidb.contexts');    -- not null after extension setup
 
 
 ```
+# 4) Control & SQL files (unchanged on Windows)\extension:
+Put these under $(pg_config -- shared dir)
+omnidb_plpgsql_debugger.control
+```bash
+comment = 'PostgreSQL extension for enabling PL/pgSQL debugger in OmniDB'
+default_version = '1.0.0'
+module_pathname = '$libdir/omnidb_plpgsql_debugger'
+relocatable = false
+
+
+
+```
+omnidb_plpgsql_debugger--1.0.0.sql
+```bash
+CREATE FUNCTION omnidb_enable_debugger(text)
+RETURNS void
+AS 'omnidb_plpgsql_debugger', 'omnidb_enable_debugger'
+LANGUAGE C STRICT;
+
+
+```
+
 
 
 # end of OpenAI 
